@@ -1,0 +1,6 @@
+[project]
+name = "transcribe"
+version = "0.1.0"
+description = "Transcribe videos using mlx-whisper"
+requires-python = ">=3.12"
+dependencies = ["mlx-whisper"]

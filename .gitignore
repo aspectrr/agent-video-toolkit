@@ -1,0 +1,15 @@
+node_modules
+dist
+.pi
+build
+.ruff_cache
+
+# Source footage (large files)
+videos/
+
+# Generated clips and output
+public/clips/
+out/
+
+# Transcripts (regenerated)
+transcribe/transcripts/

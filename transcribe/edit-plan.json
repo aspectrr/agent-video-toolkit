@@ -1,0 +1,144 @@
+{
+  "clips": [
+    {
+      "id": "intro",
+      "source": "IMG_6423.MOV",
+      "start": 6.74,
+      "end": 14.94,
+      "label": "Day two intro"
+    },
+    {
+      "id": "cold-email",
+      "source": "IMG_6423.MOV",
+      "start": 15.16,
+      "end": 42.40,
+      "label": "Cold email story"
+    },
+    {
+      "id": "hormozy",
+      "source": "IMG_6423.MOV",
+      "start": 52.18,
+      "end": 91.58,
+      "label": "Free service for review strategy"
+    },
+    {
+      "id": "upwork-strategy",
+      "source": "IMG_6423.MOV",
+      "start": 112.28,
+      "end": 162.98,
+      "label": "Upwork client finding strategy"
+    },
+    {
+      "id": "market-need",
+      "source": "IMG_6423.MOV",
+      "start": 296.06,
+      "end": 317.44,
+      "label": "Finding market need"
+    },
+    {
+      "id": "service-business",
+      "source": "IMG_6423.MOV",
+      "start": 324.06,
+      "end": 380.22,
+      "label": "Service business to startup path"
+    },
+    {
+      "id": "followup",
+      "source": "IMG_6423.MOV",
+      "start": 381.88,
+      "end": 397.16,
+      "label": "Following up with prospect"
+    },
+    {
+      "id": "pipeline-plan",
+      "source": "IMG_6423.MOV",
+      "start": 397.46,
+      "end": 450.00,
+      "label": "Building the pipeline"
+    },
+    {
+      "id": "upwork-agent",
+      "source": "IMG_6423.MOV",
+      "start": 456.90,
+      "end": 496.86,
+      "label": "Upwork scanning agent plan"
+    },
+    {
+      "id": "scraping-challenges",
+      "source": "IMG_6423.MOV",
+      "start": 497.50,
+      "end": 571.44,
+      "label": "Scraping challenges"
+    },
+    {
+      "id": "cloudflare",
+      "source": "IMG_6423.MOV",
+      "start": 577.38,
+      "end": 735.12,
+      "label": "Cloudflare and browser tech"
+    },
+    {
+      "id": "back-agent",
+      "source": "IMG_6424.MOV",
+      "start": 0.00,
+      "end": 18.82,
+      "label": "Back to work on agent"
+    },
+    {
+      "id": "day-job",
+      "source": "IMG_6424.MOV",
+      "start": 19.36,
+      "end": 58.90,
+      "label": "Day job context"
+    },
+    {
+      "id": "freedom",
+      "source": "IMG_6424.MOV",
+      "start": 85.02,
+      "end": 109.74,
+      "label": "Freedom goal"
+    },
+    {
+      "id": "managed-agents-intro",
+      "source": "IMG_6424.MOV",
+      "start": 133.72,
+      "end": 200.20,
+      "label": "Managed agents SDK vision"
+    },
+    {
+      "id": "managed-agents-goal",
+      "source": "IMG_6425.MOV",
+      "start": 32.52,
+      "end": 66.38,
+      "label": "Managed agents is the goal"
+    },
+    {
+      "id": "pi-managed-agents",
+      "source": "IMG_6425.MOV",
+      "start": 598.88,
+      "end": 651.00,
+      "label": "Pi for managed agents"
+    },
+    {
+      "id": "extensible-software",
+      "source": "IMG_6425.MOV",
+      "start": 656.36,
+      "end": 692.70,
+      "label": "Extensible software"
+    },
+    {
+      "id": "extensions",
+      "source": "IMG_6425.MOV",
+      "start": 713.46,
+      "end": 832.14,
+      "label": "Managed agents with extensions"
+    }
+  ],
+  "tasks": [
+    "Follow up with cold email prospect",
+    "Build Upwork scraping agent",
+    "Build cold email automation",
+    "Explore managed agents SDK",
+    "Build extensions for agents"
+  ]
+}

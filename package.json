@@ -1,28 +1,32 @@
 {
-  "name": "imovie-mcp-server",
-  "version": "0.1.0",
-  "description": "MCP server for AI-powered video editing with iMovie",
+  "name": "video-toolkit",
+  "version": "1.0.0",
+  "description": "Remotion video toolkit — transcribe, edit, compose",
+  "private": true,
   "type": "module",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
-    "start": "node dist/index.js",
-    "prepare": "npm run build"
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "lint": "eslint src && tsc",
+    "transcribe": "cd transcribe && uv run transcribe.py"
   },
-  "keywords": ["mcp", "imovie", "video-editing", "ai"],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "chokidar": "^3.5.3",
-    "openai": "^4.28.0",
-    "ffmpeg-static": "^5.2.0",
-    "fluent-ffmpeg": "^2.1.2"
+    "@remotion/cli": "4.0.471",
+    "@remotion/media-utils": "^4.0.471",
+    "@remotion/tailwind-v4": "4.0.471",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.471",
+    "tailwindcss": "4.0.0"
   },
   "devDependencies": {
-    "@types/fluent-ffmpeg": "^2.1.24",
-    "@types/node": "^20.0.0",
-    "typescript": "^5.3.0"
-  }
+    "@remotion/eslint-config-flat": "4.0.471",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "sideEffects": ["*.css"]
 }
