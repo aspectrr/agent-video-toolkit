@@ -1,0 +1,28 @@
+{
+  "name": "imovie-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for AI-powered video editing with iMovie",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": ["mcp", "imovie", "video-editing", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "chokidar": "^3.5.3",
+    "openai": "^4.28.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
